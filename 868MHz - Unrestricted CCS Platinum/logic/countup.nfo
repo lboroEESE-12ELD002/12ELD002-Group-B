@@ -1,0 +1,145 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern void countup_tick() is called from 0 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	start_buzzer() (1 times)
+	stop_countup() (1 times)
+	stop_countdown() (1 times)
+
+extern void display_countup() is called from 1 sites in this file.
+    It appears to be inlineable (size = 114 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	itoa() (4 times)
+	display_chars() (4 times)
+	switch_seg() (6 times)
+	display_symbol() (2 times)
+
+extern unsigned char is_countup_active() is called from 0 sites in this file.
+    It appears to be inlineable (size = 20 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void mx_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void reset_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 13 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void start_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void stop_countup() is called from 1 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	display_countup() (1 times)
+
+extern void sx_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+
+These functions may be recursive:
+	countup_tick()
+	stop_countup()
+	display_countup()
+
+Making this function inlineable: stop_countup()
+
+These external functions are called but not defined here:
+	display_symbol()
+	switch_seg()
+	display_chars()
+	itoa()
+	stop_countdown()
+	start_buzzer()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void sx_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void display_countup() is called from 1 sites in this file.
+    It appears to be inlineable (size = 114 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void stop_countup() is called from 1 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	display_countup() (1 times)
+
+==============================================================================
+
+extern void start_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void reset_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 13 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void mx_countup() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern unsigned char is_countup_active() is called from 0 sites in this file.
+    It appears to be inlineable (size = 20 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void countup_tick() is called from 0 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	stop_countup() (1 times)
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==
